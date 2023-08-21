@@ -41,8 +41,20 @@ content={
 }
 
 function start(){
+    
     setSidebar();
     setActive();
+    setLogo();
+    setHamburger();
+}
+function setHamburger(){
+    $("body").prepend('<i class="hamburger fa-solid fa-bars"></i>');
+    $(".hamburger").click(function(e){
+        $(".sidebar").fadeToggle("1000");
+    });
+}
+function setLogo(){
+    $(".sidebar").prepend("<p class='sideCategory'>Sarang Koding</p>");
 }
 function setActive(){
     var path=$(location).attr('href');
@@ -62,6 +74,9 @@ function setSidebar(){
         out+="<a href='"+e["id"].toLowerCase()+".html' class='sideButton'>"+e["title"]+"</a>";
     });
     $(".sidebar").html(out);
+    if($(window).width()<600){
+        $(".sidebar").hide();
+    }
 }
 
 start();
