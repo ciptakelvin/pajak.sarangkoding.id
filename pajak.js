@@ -5,6 +5,11 @@ sidelink=[
         "title":"Definisi",
     },
     {
+        "id":"kode-formulir",
+        "category":"Ketentuan Umum Perpajakan",
+        "title":"Kode Formulir",
+    },
+    {
         "id":"timeline",
         "category":"Ketentuan Umum Perpajakan",
         "title":"Batas Waktu/Timeline",

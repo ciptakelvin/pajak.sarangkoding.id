@@ -3,9 +3,11 @@
     margin: 0;
     font-family: 'Lato', sans-serif;
 }
-
+th,td{
+    padding: 10px;
+}
 p{
-    max-width: 800px;
+    max-width: 600px;
 }
 
 .flex-page{
@@ -45,7 +47,6 @@ a{
 
 .flex-page>.content{
     flex: 10;
-    line-height: 30px;
     padding: 20px 20px 20px 100px;
 }
 #contentTitle{
@@ -64,11 +65,12 @@ a{
 
 #contentHTML>p{
     margin-top: 20px;
-    text-indent: 50px;
     text-align: justify;
+    line-height: 35px;
 }
 #contentHTML>h2{
-    margin-top:40px
+    margin-top:40px;
+    line-height: 35px;
 }
 .hamburger{
     font-size: 30px;
@@ -79,23 +81,40 @@ a{
     position: fixed;
     z-index: 1;
     background-color: rgba(255,255,255,0.5);
+    border-radius: 6px;
 }
 .hamburger:hover{
-    background-color: #2a2a2a;
+    background-color: rgba(0,0,0,0.5);
     color: white;
 }
 .info{
     background-color: rgb(23, 140, 208);
     padding: 15px;
     max-width: 400px;
-    margin: 20px;
+    margin: 10px;
     border-radius: 6px;
     color: white;
+    line-height: 30px;
 }
 .info ul{
     padding-left: 20px;
 }
-
+.iconButton{
+    background-color: #2a2a2a;
+    border-radius: 6px;
+    width: fit-content;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    margin-top: 20px;
+}
+.iconButton:hover{
+    background-color: lightblue;
+}
+.iconButton>i{
+    font-size: 20px;
+}
 @media screen and (max-width: 600px) {
     .flex-page{
         display: inline;
