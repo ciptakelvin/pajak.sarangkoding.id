@@ -10,19 +10,9 @@ sidelink=[
         "title":"Kode Formulir",
     },
     {
-        "id":"timeline",
-        "category":"Ketentuan Umum Perpajakan",
-        "title":"Batas Waktu/Timeline",
-    },
-    {
-        "id":"sanksi",
-        "category":"Ketentuan Umum Perpajakan",
-        "title":"Sanksi/Denda",
-    },
-    {
-        "id":"penagihan",
-        "category":"Ketentuan Umum Perpajakan",
-        "title":"Penagihan Pajak",
+        "id":"soal-kup-1",
+        "category":"Soal Ketentuan Umum Perpajakan",
+        "title":"Soal KUP 1",
     },
 ];
 
