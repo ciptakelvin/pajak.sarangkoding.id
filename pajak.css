@@ -115,10 +115,7 @@ a{
 .iconButton>i{
     font-size: 20px;
 }
-#quizHTML{
-    margin: 30px 20px 20px 20px;
-    line-height: 30px;
-}
+
 @media screen and (max-width: 600px) {
     .flex-page{
         display: inline;
