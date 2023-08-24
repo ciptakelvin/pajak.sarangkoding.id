@@ -14,6 +14,41 @@ sidelink=[
         "category":"Soal Ketentuan Umum Perpajakan",
         "title":"Soal KUP 1",
     },
+    {
+        "id":"soal-php-1",
+        "category":"Soal Pengantar Hukum Pajak",
+        "title":"Soal PHP 1",
+    },
+    {
+        "id":"soal-akuntansi-1",
+        "category":"Soal Akuntansi Dasar",
+        "title":"Soal Akuntansi Dasar 1",
+    },
+    {
+        "id":"soal-pphop-1",
+        "category":"Soal Pajak Penghasilan Orang Pribadi",
+        "title":"Soal PPh OP 1",
+    },
+    {
+        "id":"soal-pphpotput-1",
+        "category":"Soal Pajak Penghasilan Pemotongan dan Pemungutan",
+        "title":"Soal PPh Potput 1",
+    },
+    {
+        "id":"soal-pphbadan-1",
+        "category":"Soal Pajak Penghasilan Badan",
+        "title":"Soal PPh Badan 1",
+    },
+    {
+        "id":"soal-ppnppnbm-1",
+        "category":"Soal PPN dan PPnBM",
+        "title":"Soal PPN dan PPnBM 1",
+    },
+    {
+        "id":"soal-pbbdanbm-1",
+        "category":"Soal PBB, BPHTB, dan Bea Materai",
+        "title":"Soal 1",
+    },
 ];
 
 content={
